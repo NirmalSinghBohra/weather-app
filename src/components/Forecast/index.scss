@@ -1,0 +1,12 @@
+.forecast{
+  border-radius: 10px;
+  background-color: #01579b;
+  color: whitesmoke;
+  padding: 10px;
+  font-family: 'Recursive', sans-serif;
+  font-size: 19px;
+  flex-basis: 150px;
+  &:not(:last-of-type) {
+    margin-right: 10px;
+  }
+}
